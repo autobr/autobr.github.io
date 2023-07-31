@@ -1,0 +1,15 @@
+<p>hello</p>
+<!--?php 
+if ($handle = opendir('.')) {
+    while (false !== ($file = readdir($handle)))
+    {
+        if (($file != ".") 
+         &amp;&amp; ($file != ".."))
+        {
+            $thelist .= '&lt;LI&gt;&lt;a href="'.$file.'"&gt;'.$file.'&lt;/a&gt;';
+        }
+    }
+
+    closedir($handle);
+}
+?-->
